@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/laravel-welcome', function () {
     return view('welcome');
 });
+
+Route::get('/', [
+    "as" => "home",
+    "uses" => "HomeController@home"
+]);
+

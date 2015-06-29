@@ -1,0 +1,64 @@
+#header-nav {
+    width: 100%;
+    background-color: rgba(34, 31, 31, 0.6);
+    position: relative;
+    overflow: auto;
+}
+
+#header-nav:hover {
+    background-color: rgba(34, 31, 31, 0.9);
+}
+
+#drawer {
+    position: relative;
+    display:block;
+    height:0px;
+    transition-duration: 0.5s;
+    font-family: 'Raleway', sans-serif;
+}
+
+#nav {
+    width: 1096px;
+    margin: 0 auto;
+    color: white;
+    min-height:50px;
+    overflow:hidden;
+}
+
+#nav a {
+    text-decoration: none;
+
+}
+
+#main-menu {
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#main-menu a {
+    display: inline-block;
+    color: white;
+}
+
+.home-link {
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.nav-drop {
+    margin: 8px 10px;
+}
+
+.menu-group {
+    display: none;
+    color: white;
+    margin-top:20px;
+
+}
+
+.menu-group a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
