@@ -44,10 +44,13 @@
 .home-link {
     font-weight: bold;
     margin-right: 30px;
+    margin-top: 10px;
+    vertical-align: middle;
 }
 
 .nav-drop {
     margin: 8px 10px;
+    vertical-align: middle;
 }
 
 .menu-group {
@@ -61,4 +64,16 @@
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+.nav-left {
+    float: left;
+    padding-right:50px;
+    width:40%;
+}
+
+.nav-right {
+    float: left;
+    padding-left: 20px;
+    border-left: 1px solid white;
 }

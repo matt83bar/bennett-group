@@ -1,9 +1,30 @@
 #header-block {
     width: 100%;
-    background-image: url('/images/aquarius-hero-background.jpg');
+    background-image: url('/images/city-scape.jpg');
     background-size: cover;
-    height: 800px;
+    height: 400px;
+}
+
+.main-headline {
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+
+.big-gray {
+    font-size: 24px;
+    padding-bottom: 50px;
 }
 
 
+.swiggity::after {
+    width: 30px;
+    margin: -2px auto;
+    background-image: url('/images/swooty.jpg');
+    content: "";
+    display: block;
+    height: 18px;
+}
 
+.big-light {
+    padding-top: 40px;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Bennett Group | {{ $title }}</title>
-        <link href='http://fonts.googleapis.com/css?family=Oswald|Raleway' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald|Raleway|Archivo+Narrow' rel='stylesheet' type='text/css'>
         <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/nav.css') }}" rel="stylesheet" type="text/css">
 
@@ -18,7 +18,7 @@
         </section>
 
         <section id="footer">
-
+            @yield('footerContent')
         </section>
 
         <section id="footer-scripts">
