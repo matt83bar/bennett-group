@@ -92,5 +92,10 @@ section {
     width: 100%;
     background-color: #c0c0c0;
     color: #333;
+    border-top: 1px solid #aaa;
+}
+
+.clearboth {
+    clear:both;
 }
 

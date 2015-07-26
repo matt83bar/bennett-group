@@ -2,6 +2,7 @@
 
 @section('headScripts')
     <link href="{{ asset('css/home.css') }}" type="text/css" rel="stylesheet">
+    <link href="{{ asset('css/footer.css') }}" type="text/css" rel="stylesheet">
     @endsection
 
 @section('pageContent')

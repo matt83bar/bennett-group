@@ -1,5 +1,17 @@
 .footerContent {
     width: 1024px;
     margin:0 auto;
+    padding:10px 0;
+}
 
+.footerContent .column-25 {
+    padding-right: 50px;
+}
+
+.footerClose {
+    text-align: center;
+    font-size: small;
+    clear: both;
+    line-height: 2em;
+    border-top: 1px dotted #333;
 }

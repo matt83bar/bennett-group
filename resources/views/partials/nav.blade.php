@@ -29,6 +29,7 @@
                         <li>Supreme Overlord Matt Mood</li>
                     </ul></p>
                 </div>
+                <div class="clearboth">&nbsp;</div>
             </div>
             <div id="contactMenu" class="menu-group">
                 <div class="nav-left">
@@ -39,6 +40,7 @@
                     <p>This is some contact menu shit.</p>
                     <p>We can put <a href="/contact">links</a> in here too.</p>
                 </div>
+                <div class="clearboth">&nbsp;</div>
             </div>
             <div id="aboutMenu" class="menu-group">
                 <p>This is some about menu shit.</p>
