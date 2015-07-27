@@ -1,0 +1,85 @@
+/* STYLESHEET FOR /services/legal */
+
+#header-block {
+    width: 100%;
+    background-image: url('/images/Law-Banner-wLogo2.png');
+    background-size: cover;
+    height: 350px;
+}
+
+#main-content {
+    font-size: 20px;
+}
+
+.small-padding {
+    padding-top: 4px;
+}
+
+#choose-click {
+    display: block;
+    width: 510px;
+    height: 603px;
+    background-image: url('/images/whychooseus.png');
+}
+
+#choose-link {
+    display: block;
+    width: 510px;
+    height: 603px;
+    background-image: url('/images/whychooseusText.png');
+}
+
+#services-click {
+    display: block;
+    width: 510px;
+    height: 300px;
+    background-image: url('/images/Services.png');
+}
+
+#services-link {
+    display: block;
+    width: 510px;
+    height: 300px;
+    background-image: url('/images/ServicesText.png');
+}
+
+
+#team-click {
+    display: block;
+    width:510px;
+    height: 300px;
+    background-image: url('/images/TheTeam.png');
+    margin-top: 3px;
+}
+
+#team-link {
+    display: block;
+    width: 510px;
+    height: 300px;
+    background-image: url('/images/TheTeamText.png');
+}
+
+#services-inline-img {
+    float: right;
+    margin-left: 25px;
+}
+
+#services-content {
+    overflow:hidden;
+}
+
+.fade-box {
+    cursor: pointer;
+}
+
+.fade-box img {
+    opacity: .3;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.fade-box img:hover {
+    opacity: .1;
+}

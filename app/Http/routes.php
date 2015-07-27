@@ -20,3 +20,8 @@ Route::get('/', [
     "uses" => "HomeController@home"
 ]);
 
+Route::get('/services/legal', [
+    "as" => "legal",
+    "uses" => "ServicesController@legal"
+]);
+
