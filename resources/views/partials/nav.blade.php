@@ -1,7 +1,7 @@
 <div id="header-nav">
     <div id="nav">
         <div id="main-menu">
-            <a href="/" class="home-link"><img src="images/logo-trans.png" /></a>
+            <a href="/" class="home-link"><img src="{{ asset('images/logo-trans.png') }}" /></a>
             <a href="/services" data-group="services" class="nav-drop">Services</a>
             <a href="/team" data-group="team" class="nav-drop">Team</a>
             <a href="/contact" data-group="contact" class="nav-drop">Contact</a>

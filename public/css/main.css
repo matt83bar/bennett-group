@@ -88,6 +88,17 @@ section {
     margin-right:0;
 }
 
+.column-main-2 {
+    width: 510px;
+    margin-right: 4px;
+    float: left;
+}
+
+.column-main-2:last-of-type {
+    margin-right: 0;
+}
+
+/* FOOTER STYLE */
 #footer {
     width: 100%;
     background-color: #c0c0c0;
